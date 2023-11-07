@@ -177,7 +177,19 @@ margin-bottom: 30px;
 .square.big{
    align-items: flex-start;
 }
-
+.banner{
+    background-color: rgb(185, 207, 229);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+.questions{
+    margin-top: 70px;
+}
+.question{
+    padding: 20px;
+}
 
 
 
