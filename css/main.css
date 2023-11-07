@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**HEADER**/
+header .first-row .container-main{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+header .first-row{
+    background-color: rgb(130, 222, 243);
+    min-width: 100%;
+}
+header .first-row .left{
+    height: 30px;
+}
+header .first-row .link{
+    background-color: orange;
+    border: 1px dashed black;
+}
+header .first-row .content{
+    height: 30px;
+    background-color: orange;
+    border: 1px dashed black;
+    display: flex;
+}
+/**MAIN**/
+
+/**FOOTER**/
