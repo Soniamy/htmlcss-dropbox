@@ -190,7 +190,27 @@ margin-bottom: 30px;
 .question{
     padding: 20px;
 }
-
-
+.footer{
+    background-color: black;
+    width: 100%;
+}
+.top .column-box{
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.top .column-box .column{
+    border: 1px dashed white;
+    min-height: 450px;
+    width: 200px;
+}
+.footer-box{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /**FOOTER**/
