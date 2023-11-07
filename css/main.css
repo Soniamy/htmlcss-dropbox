@@ -4,28 +4,58 @@
     box-sizing: border-box;
 }
 /**HEADER**/
-header .first-row .container-main{
+header .container-header{
     height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-header .first-row{
+header {
     background-color: rgb(130, 222, 243);
     min-width: 100%;
 }
-header .first-row .left{
+header .left{
     height: 30px;
 }
-header .first-row .link{
+header .link{
     background-color: orange;
     border: 1px dashed black;
 }
-header .first-row .content{
+header  .content{
     height: 30px;
     background-color: orange;
     border: 1px dashed black;
     display: flex;
 }
 /**MAIN**/
+.hero-banner{
+    min-height: 100px;
+    padding-bottom: 30px;
+}
+.hero-banner .wrapper{
+    background-color: rgb(23, 23, 161);
+}
+.hero-banner h1{
+    padding: 40px;
+    text-align: center;
+}
+.hero-banner .box-banner{
+    display: flex;
+    justify-content: center;
+}
+.hero-banner .left{
+    background-color: rgb(56, 145, 234);
+    min-height: 250px;
+    width: 500px;
+    border: 1px dashed black;
+   
+}
+.hero-banner .right{
+    background-color: rgb(234, 56, 216);
+    width: 500px;
+    border: 1px dashed black;
+}
+.container-main{
 
+}
 /**FOOTER**/
