@@ -20,15 +20,15 @@ header {
 header .header-left{
     height: 30px;
 }
-header .link{
-   /**background-color: orange;
-    border: 1px dashed black;**/
-}
 header  .content{
     height: 30px;
     display: flex;
     /**  background-color: orange;
     border: 1px dashed black;**/
+}
+header .content .logo{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .link a{
     color: black;
@@ -42,8 +42,7 @@ header  .content{
 }
 .link li{
     list-style-type: none;
-    margin-left: 20px;
-    margin-right: 10px;
+
 }
 .button {
  display: flex;
@@ -239,6 +238,11 @@ padding: 60px;
 .partner .box-left .find *{
     margin-bottom: 20px;
 }
+.partner .box-left .find .button.white{
+    background-color: #FFFFFF;
+    color: grey;
+    border: 1px solid grey;
+}
 .subtitle{
     margin-bottom: 50px;
     font-size: 1.5em;
@@ -275,7 +279,7 @@ padding: 60px;
     color:#0F5EE7;
 }
 .special-box{
-    margin-top: 40px;
+    margin-top: 100px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -343,9 +347,14 @@ padding: 60px;
     padding: 80px;
 }
 .banner .title-banner{
-    font-size:1.3em;
+    font-size:1.34em;
     width: 30%;
     color: rgb(87, 14, 29);
+}
+.banner .button.white{
+  min-width: 260px;
+  padding-left: 60px;
+  margin-top: 20px;
 }
 .questions{
     margin-top: 70px;
@@ -380,7 +389,7 @@ padding: 60px;
 }
 .top .column-box .column{
     min-height: 300px;
-    width: 200px;
+    width: 225px;
     color: #FFFFFF;
 }
 .top .column-box .column h2{
@@ -402,11 +411,11 @@ padding: 60px;
 }
 .bottom.footer hr{
     width: 100px;
-    margin-left: 210px;   
+    margin-left: 160px;   
 }
 .bottom.footer .language{
     color: #FFFFFF;
-    margin-left: 210px;  
+    margin-left: 160px;  
     font-size: 1em;
     margin-top: 20px;
     font-weight: 200;
