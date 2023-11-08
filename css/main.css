@@ -324,13 +324,17 @@ padding: 60px;
 }
 .square.big{
    align-items: flex-start;
-   background-color:rgb(195, 41, 43) ;
-  /* background-color: rgb(245, 245, 245);*/
+  /background-color: rgb(245, 245, 245);
    color: black;
+   padding: 40px;
 }
-.square .big img{
-    min-width: 200px;
+.square.big img{
+    width: 200px;
 }
+.square.big .author{
+    margin-top: 30px;
+}
+
 .banner{
     background-color: rgb(185, 207, 229);
     width: 100%;
@@ -345,6 +349,7 @@ padding: 60px;
 }
 .questions{
     margin-top: 70px;
+    margin-bottom: 90px;
 }
 .questions .title-question{
     margin-top: 20px;
@@ -360,12 +365,12 @@ padding: 60px;
 .question i{
     margin-right: 40px;
 }
+/**FOOTER**/
 .footer{
     background-color: black;
     width: 100%;
 }
-.top .column-box{
-    border: 1px dashed black;
+.column-box{
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -374,13 +379,36 @@ padding: 60px;
     padding-bottom: 50px;
 }
 .top .column-box .column{
-    border: 1px dashed white;
-    min-height: 450px;
+    min-height: 300px;
     width: 200px;
+    color: #FFFFFF;
+}
+.top .column-box .column h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.top .column-box .column li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.top .column-box .column li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
 }
 .footer-box{
     margin-left: auto;
     margin-right: auto;
 }
+.bottom.footer hr{
+    width: 100px;
+    margin-left: 210px;   
+}
+.bottom.footer .language{
+    color: #FFFFFF;
+    margin-left: 210px;  
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight: 200;
+}
 
-/**FOOTER**/
