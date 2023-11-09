@@ -12,6 +12,11 @@ header .container-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index:1;
+    width: 100%;
 }
 header {
    /** background-color: rgb(130, 222, 243);**/

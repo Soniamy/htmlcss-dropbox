@@ -12,6 +12,11 @@ header .container-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index:1;
+    width: 100%;
 }
 header {
    /** background-color: rgb(130, 222, 243);**/
@@ -62,6 +67,7 @@ header .content .logo{
     background-color: #0F5EE7;
     color: #FFFFFF;
 }
+  
 /**MAIN**/
 .hero-banner{
     min-height: 100px;
