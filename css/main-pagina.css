@@ -12,18 +12,16 @@ header .container-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   /* position: fixed;
-    top: 0;
-    background-color: #FFFFFF;
-    z-index:1;
-    width: 100%;*/
 }
 header {
    /** background-color: rgb(130, 222, 243);**/
     min-width: 100%;
-    position: fixed;
     background-color: white;
-    z-index: 1;
+    /* position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index:1;
+    width: 100%;*/
 }
 header .header-left{
     height: 30px;
@@ -95,13 +93,13 @@ header .content .logo{
     display: none
 }
 #hormenu .menu:hover .unordered-list{
-display: block;
-position: absolute;
-z-index:1;
-width:250px;
-padding: 0;
-margin: 0 0 0 -1px;
-background: #FFFFFF;
+   display: block;
+   position: absolute;
+   z-index:1;
+   width:250px;  
+   padding: 0;
+   margin: 0 0 0 -1px;
+  background: #FFFFFF;
 }
 #hormenu .list-menu .list { 
     border:none; 
@@ -117,7 +115,6 @@ background: #FFFFFF;
 .experiences{
     display: flex;
     width: 100%;
-    max-width: 100%;
     height: 50px;
     align-items: center;
    
@@ -130,7 +127,6 @@ background: #FFFFFF;
      text-decoration: none;
      color: black;
      padding: 10px 5px;
-     justify-content: space-between;
     
     
  }
@@ -151,6 +147,48 @@ background: #FFFFFF;
 .experiences .search{
     margin-left: 813px;
 }
+.container-top-main{
+    background-color: #1E1919;
+    width: 100%;
+}
+.container {
+       margin-left: 306px;
+       margin-right: 306px;
+       text-align: center;
+       color: #FFFFFF;
+}
+.container-top-main .jumbo .title{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+.container-top-main .jumbo .subtitle{
+    padding-bottom: 30px;
+}
+.button-main {
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.5;
+    font-size: 1em;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 40px;
+    background-color: #3983FF;
+    margin-bottom: 80px;
+}
+.container-top-main .jumbo .clip{
+    width: 880px;
+    height: 500px;
+    padding-bottom: 80px;
 
+}
+.container-top-main .jumbo .clip video{
+    width: 100%;
+    height: 100%;
+}
 
 
