@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/**HEADER**/
+header .container-header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index:1;
+    width: 100%;
+}
+header {
+   /** background-color: rgb(130, 222, 243);**/
+    min-width: 100%;
+}
+header .header-left{
+    height: 30px;
+}
+header  .content{
+    height: 30px;
+    display: flex;
+    /**  background-color: orange;
+    border: 1px dashed black;**/
+}
+header .content .logo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.link a{
+    color: black;
+    text-decoration: none;
+    margin: 4px;
+    font-size: 15px;
+    padding: 10px;
+}
+.link ul{
+    display: flex;
+}
+.link li{
+    list-style-type: none;
+
+}
+.button {
+ display: flex;
+ align-items: center;
+ text-align: center;
+ white-space: nowrap;
+ text-decoration: none;
+ line-height: 1.2;
+ font-size: 0.8em;
+ border-radius: 0px;
+ padding: 8px 16px;
+ border: none;
+ cursor: pointer;
+ font-family: 'Open Sans', sans-serif;
+}
+.blue{
+    background-color: #0F5EE7;
+    color: #FFFFFF;
+}
+
+#hormenu .list-menu{
+    width:100px;
+    float:left;
+    margin: 0;
+    padding: 0;
+}
+#hormenu a{
+    display: block;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+}
+#hormenu a:hover{
+    background-color: #B9CEE5;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#hormenu .list-menu .unordered-list{
+    display: none
+}
+#hormenu .menu:hover .unordered-list{
+display: block;
+position: absolute;
+z-index:1;
+width:250px;
+padding: 0;
+margin: 0 0 0 -1px;
+background: #FFFFFF;
+}
+#hormenu .list-menu .list { 
+    border:none; 
+    width:250px; 
+}
+#hormenu .list-menu .list a { 
+    padding:2px 2px 2px 10px;
+    font-size: 0.8em;
+}
+#hormenu .list-menu .list a h3{
+    font-size: 1em;
+}
+
