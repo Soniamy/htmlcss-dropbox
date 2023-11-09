@@ -159,6 +159,11 @@ margin-bottom: 30px;
     color: rgb(189, 188, 188);
     margin-bottom: 20px;
 }
+.column .fa-ul {
+    list-style-type: none;
+    margin-left: var(--fa-li-margin,1.4em);
+    padding-left: 0;
+}
 .columns li{
     list-style-type: none;
     margin-bottom: 15px;
