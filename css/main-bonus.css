@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/**HEADER**/
+header .container-header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+   /** background-color: rgb(130, 222, 243);**/
+    min-width: 100%;
+}
+header .header-left{
+    height: 30px;
+}
+header  .content{
+    height: 30px;
+    display: flex;
+    /**  background-color: orange;
+    border: 1px dashed black;**/
+}
+header .content .logo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.link a{
+    color: black;
+    text-decoration: none;
+    margin: 4px;
+    font-size: 15px;
+    padding: 10px;
+}
+.link ul{
+    display: flex;
+}
+.link li{
+    list-style-type: none;
+
+}
+.button {
+ display: flex;
+ align-items: center;
+ text-align: center;
+ white-space: nowrap;
+ text-decoration: none;
+ line-height: 1.2;
+ font-size: 0.8em;
+ border-radius: 0px;
+ padding: 8px 16px;
+ border: none;
+ cursor: pointer;
+ font-family: 'Open Sans', sans-serif;
+}
+.blue{
+    background-color: #0F5EE7;
+    color: #FFFFFF;
+}
+/*BONUSCSS*/
+
+#hormenu .list-menu{
+    width:100px;
+    float:left;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid black;
+    color:black;
+}
+#hormenu a{
+    display: block;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+}
+#hormenu a:hover{
+    background-color: #000033;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#hormenu .list-menu .unordered-list{
+    display: none
+}
+#hormenu .menu:hover .unordered-list{
+display: block;
+position: absolute;
+z-index:1;
+width:150px;
+padding: 0;
+margin: 0 0 0 -1px;
+border:1px solid black;
+background: white;
+}
+#hormenu .list-menu .list { border:none; width:150px; }
+#hormenu .list-menu .list a { padding:2px 2px 2px 10px; }
+   
+/**MAIN**/
+.hero-banner{
+    min-height: 100px;
+    padding-bottom: 90px;
+}
+.hero-banner .wrapper{
+    background-color: rgb(185, 207, 229)
+}
+.hero-banner .container-big{
+    max-width: 1250px;
+}
+.hero-banner .title{
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-banner h1{
+    padding: 40px;
+    font-size: 4em;
+    font-weight: 900px;
+}
+.hero-banner .box-banner{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    min-height: 250px;
+    width: 325px;
+}
+.box-banner .left .title-hero{
+    margin-bottom: 30px;
+}
+.box-banner .left .subtitle-hero{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.box-banner .left .icon{
+    font-size: 40px;
+}
+
+.right{
+    width: 833px;
+    height: 400px;
+    position: relative;
+}
+.hero-banner .box-banner .right img{
+height: 120%;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.container{
+   /* background-color: blueviolet;*/
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.business-plan h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.checkboxes{
+    display: flex;
+    margin-bottom: 40px;
+}
+.checkboxes .checkbox{
+    margin-right: 40px;
+}
+.columns{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 30px;
+}
+.business-plan .column {
+    width: calc((100% / 3) - 30px);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid lightgrey;
+    padding: 15px;
+}
+.columns .icon{
+    font-size: 15px;
+    text-align: center;
+}
+.columns .title-column{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.columns .price{
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.columns .time{
+    font-weight:300;
+    color: rgb(189, 188, 188);
+    margin-bottom: 20px;
+}
+.column .fa-ul {
+    list-style-type: none;
+    margin-left: var(--fa-li-margin,1.4em);
+    padding-left: 0;
+}
+.columns li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.column .button{
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+}
+.column .buy{
+    font-size: 0.7em;
+    margin-bottom: 20px;
+}
+.column .buy a{
+    color: rgb(51, 142, 216);
+}
+.column hr{
+    width: 40px;
+}
+.column .plane{
+    margin-top: 30px;
+    display: inline-block;
+}
+.column .plane h4{
+    margin-bottom: 30px;
+}
+.column .plane li{
+    font-size: 0.8em;
+}
+.business-plan .row{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+.business-plan .icon.row{
+    text-align: center;
+}
+
+.business-plan .second{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.business-plan .row-left{
+    width: 65%;
+    padding: 10px;
+}
+.business-plan .row-left *{
+    margin-bottom: 20px;
+}
+.business-plan .row-left .info{
+    font-size: 0.9em;
+}
+.business-plan .row-right{
+    margin-top: 20px;
+}
+.partner .boxes{
+    display: flex;
+    margin-bottom: 50px;
+}
+.partner .box-right{
+    width: 500px;
+    height: 400px;
+}
+.partner .box-right img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.partner .box-left{
+    width: 420px;
+    min-height: 400px;
+}
+.partner .box-left .find{
+padding: 60px;
+}
+.partner .box-left .find *{
+    margin-bottom: 20px;
+}
+.partner .box-left .find .button.white{
+    background-color: #FFFFFF;
+    color: grey;
+    border: 1px solid grey;
+}
+.subtitle{
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+.operations .column-characteristics{
+    width: calc(100% / 3);
+}
+.operations .column-characteristics{
+    width: 285px;
+    height: 470px;
+} 
+.operations .column-characteristics .image{
+    width: 285px;
+    height: 210px;
+    margin-bottom: 20px;
+}
+.operations .column-characteristics .image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.title-img{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.text{
+    margin-top: 50px;
+}
+.text .title-text{
+    margin-bottom: 20px;
+   font-size: 2em;
+}
+.text a{
+    color:#0F5EE7;
+}
+.special-box{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+.square{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.square img{
+    width: 25%;
+    min-width: 125px;
+}
+.small{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square .one{
+    background-color:rgb(172, 210, 116) ;
+    border: 10px solid rgb(218, 235, 208);
+}
+.square .two{
+    background-color:rgb(89, 19, 43) ;
+}
+.square .three{
+    background-color:rgb(64, 145, 201) ;
+}
+.square .four{
+    background-color:rgb(234, 59, 47) ;
+}
+.square .five{
+    background-color:rgb(195, 41, 43) ;
+}
+.square .six{
+    background-color:rgb(185, 207, 229) ;
+}
+.square .seven{
+    background-color:rgb(19, 35, 124) ;
+}
+.square .eight{
+    background-color:rgb(249, 218, 86) ;
+}
+.square.big{
+   align-items: flex-start;
+  /background-color: rgb(245, 245, 245);
+   color: black;
+   padding: 40px;
+}
+.square.big img{
+    width: 200px;
+}
+.square.big .author{
+    margin-top: 30px;
+}
+
+.banner{
+    background-color: rgb(185, 207, 229);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.banner .title-banner{
+    font-size:1.34em;
+    width: 30%;
+    color: rgb(87, 14, 29);
+}
+.banner .button.white{
+  min-width: 260px;
+  padding-left: 60px;
+  margin-top: 20px;
+}
+.questions{
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+.questions .title-question{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+.question{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.question i{
+    margin-right: 40px;
+}
+/**FOOTER**/
+.footer{
+    background-color: black;
+    width: 100%;
+}
+.column-box{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.top .column-box .column{
+    min-height: 300px;
+    width: 225px;
+    color: #FFFFFF;
+}
+.top .column-box .column h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.top .column-box .column li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.top .column-box .column li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+}
+.footer-box{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom.footer hr{
+    width: 100px;
+    margin-left: 160px;   
+}
+.bottom.footer .language{
+    color: #FFFFFF;
+    margin-left: 160px;  
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight: 200;
+}
+
