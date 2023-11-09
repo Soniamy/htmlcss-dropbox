@@ -197,6 +197,7 @@ header .content .logo{
 }
 .container-item .item{
     display: flex;
+    position: relative;
 }
 .container-item .item .image{
     width: 720px;
@@ -223,4 +224,15 @@ header .content .logo{
 }
 .container-item .item .text .button.blue{
     margin-top: 265px;
+}
+.container-item .item .text .button-list{
+   display: flex;
+   position: absolute;
+   bottom: 10px;
+}
+.container-item .item .text  a{
+    margin-top: 285px;
+    margin-left: 20px; 
+    color: black;
+    text-decoration-color: grey;
 }
