@@ -213,7 +213,7 @@ margin-bottom: 30px;
     font-size: 0.9em;
 }
 .business-plan .row-right{
-    margin-top: 90px;
+    margin-top: 20px;
 }
 .partner .boxes{
     display: flex;
@@ -297,6 +297,7 @@ padding: 60px;
 }
 .small{
     width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
